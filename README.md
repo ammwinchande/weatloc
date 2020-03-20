@@ -16,7 +16,15 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Weather App is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-
 ## API Used in Development
 
 The API used for getting weather information is: [OpenWeather](https://openweathermap.org/api)
+
+## Usage
+
+To run the appliation do the following:
+
+- composer install
+<!-- php -r "copy('.env.example', '.env');" -->
+- php artisan key:generate
+- npm install
