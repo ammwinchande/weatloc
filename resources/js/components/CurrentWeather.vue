@@ -8,6 +8,7 @@
             <p class="card-text">Mostly Sunny</p>
             <div class="d-flex justify-content-between mb-5">
               <p class="display-4 degree">{{location.main.temp}}&deg; C</p>
+              <i class="owi owi-01d"></i>
             </div>
             <!-- end weather-conditon -->
             <div class="d-flex justify-content-between mb-5">
