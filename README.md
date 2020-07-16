@@ -10,7 +10,7 @@ Thank you for considering contributing to the Weather App! Just create a pull re
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Muhammad Mwinchande via [ammwinchande@gmail.com](mailto:ammwinchande@gmail.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within WeatLoc, please send an e-mail to Muhammad Mwinchande via [ammwinchande@gmail.com](mailto:ammwinchande@gmail.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
