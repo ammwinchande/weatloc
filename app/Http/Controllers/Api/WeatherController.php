@@ -13,7 +13,7 @@ class WeatherController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function fetchWeather($city_name = null)
+    public function fetchWeather()
     {
         $base_url = env('BASE_WEATHER_API_URL');
         $api_key = config('services.openweather.key');
