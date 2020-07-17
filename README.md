@@ -26,5 +26,8 @@ To run the appliation do the following:
 
 - composer install
 - php -r "copy('.env.example', '.env');"
+- Copy the following to .env
+    `BASE_WEATHER_API_URL=http://api.openweathermap.org/data/2.5/`
+    `OPENWEATHER_API_KEY=YOUR_API_KEY`
 - php artisan key:generate
 - npm install

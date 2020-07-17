@@ -1,11 +1,11 @@
 <template>
   <div class="col-6">
     <ul class="list-inline">
-      <li v-for="location in locations" class="list-inline-item py-3">
+      <li v-for="location in locations" v-bind:key="location.id" class="list-inline-item py-3">
         <div class="card bg-dark text-white">
           <div class="card-body pb-3">
             <h2 class="card-title font-weight-bold">{{ location.name}}</h2>
-            <p class="card-text">Mostly Sunny</p>
+            <p class="card-text">{{ location.weather}}</p>
             <div class="d-flex justify-content-between mb-5">
               <p class="display-4 degree">{{location.main.temp}}&deg; C</p>
               <i class="owi owi-01d"></i>
@@ -58,7 +58,7 @@ export default {
       fetch(`/api/weather`)
         .then(response => response.json())
         .then(data => {
-          console.log(data.list[0]);
+          // console.log(data.list[0]);
           this.locations = data.list;
         });
     }
