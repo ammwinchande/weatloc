@@ -25,6 +25,6 @@ The API used for getting weather information is: [OpenWeather](https://openweath
 To run the appliation do the following:
 
 - composer install
-<!-- php -r "copy('.env.example', '.env');" -->
+- php -r "copy('.env.example', '.env');"
 - php artisan key:generate
 - npm install
